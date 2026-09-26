@@ -1,3 +1,7 @@
+## [0.7.6]
+
+- Fix: Added `message-circle-check` as stripped.
+
 ## [0.7.5]
 
 ### Added
