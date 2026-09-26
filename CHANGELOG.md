@@ -1,3 +1,9 @@
+## [0.7.5]
+
+### Added
+
+- `message-circle-check`
+
 ## [0.7.4]
 
 - Fix: use ActiveSupport.on_load in railtie to avoid premature ActionView load by @skuark
@@ -7,6 +13,7 @@
 This release mainly updates dependencies, but contains the same contents of `v0.7.2`.
 
 Updated dependencies:
+
 - `rexml`: `3.3.9` -> `3.4.4`
 - `nokogiri`: `1.16.7` -> `1.18.10`
 - `racc`: `1.8.0` -> `1.8.1`
@@ -15,356 +22,358 @@ Updated dependencies:
 ## [0.7.2]
 
 ### Added
- - `badge-turkish-lira`
- - `balloon`
- - `birdhouse`
- - `book-search`
- - `brick-wall-shield`
- - `calendars`
- - `cannabis-off`
- - `chess-bishop`
- - `chess-king`
- - `chess-knight`
- - `chess-pawn`
- - `chess-queen`
- - `chess-rook`
- - `chromium`
- - `circle-pile`
- - `circle-star`
- - `clipboard-clock`
- - `clock-check`
- - `closed-caption`
- - `cloud-backup`
- - `cloud-sync`
- - `ev-charger`
- - `file-braces-corner`
- - `file-braces`
- - `file-check-corner`
- - `file-code-corner`
- - `file-exclamation-point`
- - `file-headphone`
- - `file-minus-corner`
- - `file-play`
- - `file-plus-corner`
- - `file-search-corner`
- - `file-signal`
- - `file-type-corner`
- - `file-video-camera`
- - `file-x-corner`
- - `fingerprint-pattern`
- - `fishing-hook`
- - `form`
- - `gamepad-directional`
- - `git-branch-minus`
- - `hand-fist`
- - `hand-grab`
- - `handbag`
- - `hat-glasses`
- - `hd`
- - `helicopter`
- - `house-heart`
- - `kayak`
- - `layers-plus`
- - `list-chevrons-down-up`
- - `list-chevrons-up-down`
- - `list-indent-decrease`
- - `list-indent-increase`
- - `map-minus`
- - `map-pin-pen`
- - `monitor-cloud`
- - `motorbike`
- - `mouse-pointer-2-off`
- - `panel-left-right-dashed`
- - `panel-top-bottom-dashed`
- - `receipt-turkish-lira`
- - `rose`
- - `scooter`
- - `search-alert`
- - `solar-panel`
- - `spotlight`
- - `square-pause`
- - `square-star`
- - `square-stop`
- - `stone`
- - `text-align-center`
- - `text-align-end`
- - `text-align-justify`
- - `text-align-start`
- - `text-initial`
- - `text-wrap`
- - `tool-case`
- - `toolbox`
- - `turkish-lira`
- - `turntable`
- - `user-star`
- - `van`
- - `vector-square`
- - `waves-arrow-down`
- - `waves-arrow-up`
- - `weight-tilde`
- - `wifi-sync`
+
+- `badge-turkish-lira`
+- `balloon`
+- `birdhouse`
+- `book-search`
+- `brick-wall-shield`
+- `calendars`
+- `cannabis-off`
+- `chess-bishop`
+- `chess-king`
+- `chess-knight`
+- `chess-pawn`
+- `chess-queen`
+- `chess-rook`
+- `chromium`
+- `circle-pile`
+- `circle-star`
+- `clipboard-clock`
+- `clock-check`
+- `closed-caption`
+- `cloud-backup`
+- `cloud-sync`
+- `ev-charger`
+- `file-braces-corner`
+- `file-braces`
+- `file-check-corner`
+- `file-code-corner`
+- `file-exclamation-point`
+- `file-headphone`
+- `file-minus-corner`
+- `file-play`
+- `file-plus-corner`
+- `file-search-corner`
+- `file-signal`
+- `file-type-corner`
+- `file-video-camera`
+- `file-x-corner`
+- `fingerprint-pattern`
+- `fishing-hook`
+- `form`
+- `gamepad-directional`
+- `git-branch-minus`
+- `hand-fist`
+- `hand-grab`
+- `handbag`
+- `hat-glasses`
+- `hd`
+- `helicopter`
+- `house-heart`
+- `kayak`
+- `layers-plus`
+- `list-chevrons-down-up`
+- `list-chevrons-up-down`
+- `list-indent-decrease`
+- `list-indent-increase`
+- `map-minus`
+- `map-pin-pen`
+- `monitor-cloud`
+- `motorbike`
+- `mouse-pointer-2-off`
+- `panel-left-right-dashed`
+- `panel-top-bottom-dashed`
+- `receipt-turkish-lira`
+- `rose`
+- `scooter`
+- `search-alert`
+- `solar-panel`
+- `spotlight`
+- `square-pause`
+- `square-star`
+- `square-stop`
+- `stone`
+- `text-align-center`
+- `text-align-end`
+- `text-align-justify`
+- `text-align-start`
+- `text-initial`
+- `text-wrap`
+- `tool-case`
+- `toolbox`
+- `turkish-lira`
+- `turntable`
+- `user-star`
+- `van`
+- `vector-square`
+- `waves-arrow-down`
+- `waves-arrow-up`
+- `weight-tilde`
+- `wifi-sync`
 
 ### Updated
- - `a-arrow-down`
- - `a-arrow-up`
- - `a-large-small`
- - `ampersand`
- - `anchor`
- - `apple`
- - `arrow-big-down-dash`
- - `arrow-big-down`
- - `arrow-big-left-dash`
- - `arrow-big-left`
- - `arrow-big-right-dash`
- - `arrow-big-right`
- - `arrow-big-up-dash`
- - `arrow-big-up`
- - `ban`
- - `book-copy`
- - `book-heart`
- - `bot-message-square`
- - `brain`
- - `brush-cleaning`
- - `bubbles`
- - `bug-off`
- - `bug-play`
- - `bug`
- - `building-2`
- - `building`
- - `cable`
- - `cake-slice`
- - `calendar-clock`
- - `calendar-cog`
- - `calendar-fold`
- - `calendar-heart`
- - `camera-off`
- - `camera`
- - `case-lower`
- - `case-sensitive`
- - `case-upper`
- - `castle`
- - `chart-no-axes-column-decreasing`
- - `chart-no-axes-column-increasing`
- - `chart-no-axes-column`
- - `chart-no-axes-gantt`
- - `church`
- - `circle-parking-off`
- - `circle-play`
- - `clock-1`
- - `clock-10`
- - `clock-11`
- - `clock-12`
- - `clock-2`
- - `clock-3`
- - `clock-4`
- - `clock-5`
- - `clock-6`
- - `clock-7`
- - `clock-8`
- - `clock-9`
- - `clock-alert`
- - `clock-arrow-down`
- - `clock-arrow-up`
- - `clock`
- - `cloud-moon-rain`
- - `cloud-moon`
- - `cog`
- - `combine`
- - `croissant`
- - `dessert`
- - `fast-forward`
- - `file-archive`
- - `file-axis-3d`
- - `file-badge`
- - `file-box`
- - `file-chart-column-increasing`
- - `file-chart-column`
- - `file-chart-line`
- - `file-chart-pie`
- - `file-check`
- - `file-clock`
- - `file-code`
- - `file-cog`
- - `file-diff`
- - `file-digit`
- - `file-down`
- - `file-heart`
- - `file-image`
- - `file-input`
- - `file-key`
- - `file-lock`
- - `file-minus`
- - `file-music`
- - `file-output`
- - `file-pen-line`
- - `file-pen`
- - `file-plus`
- - `file-question-mark`
- - `file-scan`
- - `file-search`
- - `file-sliders`
- - `file-spreadsheet`
- - `file-stack`
- - `file-symlink`
- - `file-terminal`
- - `file-text`
- - `file-type`
- - `file-up`
- - `file-user`
- - `file-volume`
- - `file-x`
- - `file`
- - `files`
- - `flag-off`
- - `flag-triangle-left`
- - `flag-triangle-right`
- - `flag`
- - `flame`
- - `flashlight-off`
- - `flashlight`
- - `folder-clock`
- - `folder-git-2`
- - `folder-heart`
- - `folder-symlink`
- - `folders`
- - `fuel`
- - `gavel`
- - `gem`
- - `hammer`
- - `hand-heart`
- - `heart-crack`
- - `heart-handshake`
- - `heart-minus`
- - `heart-off`
- - `heart-plus`
- - `heart-pulse`
- - `heart`
- - `hospital`
- - `house-plug`
- - `house-plus`
- - `house-wifi`
- - `house`
- - `image-play`
- - `images`
- - `kanban`
- - `lasso`
- - `ligature`
- - `list-check`
- - `list-checks`
- - `list-collapse`
- - `list-end`
- - `list-filter-plus`
- - `list-filter`
- - `list-minus`
- - `list-music`
- - `list-ordered`
- - `list-plus`
- - `list-restart`
- - `list-start`
- - `list-todo`
- - `list-tree`
- - `list-video`
- - `list-x`
- - `list`
- - `logs`
- - `magnet`
- - `mails`
- - `megaphone-off`
- - `megaphone`
- - `memory-stick`
- - `menu`
- - `message-circle-code`
- - `message-circle-dashed`
- - `message-circle-heart`
- - `message-circle-more`
- - `message-circle-off`
- - `message-circle-plus`
- - `message-circle-question-mark`
- - `message-circle-reply`
- - `message-circle-warning`
- - `message-circle-x`
- - `message-circle`
- - `message-square-code`
- - `message-square-dashed`
- - `message-square-diff`
- - `message-square-dot`
- - `message-square-heart`
- - `message-square-lock`
- - `message-square-more`
- - `message-square-off`
- - `message-square-plus`
- - `message-square-quote`
- - `message-square-reply`
- - `message-square-share`
- - `message-square-text`
- - `message-square-warning`
- - `message-square-x`
- - `message-square`
- - `messages-square`
- - `mic-off`
- - `microchip`
- - `monitor-dot`
- - `monitor-play`
- - `moon-star`
- - `moon`
- - `paint-bucket`
- - `pause`
- - `pen-line`
- - `pencil-line`
- - `pickaxe`
- - `play`
- - `plug`
- - `podcast`
- - `receipt-text`
- - `refresh-ccw-dot`
- - `replace-all`
- - `replace`
- - `rewind`
- - `ruler-dimension-line`
- - `sailboat`
- - `scale`
- - `scan-heart`
- - `school`
- - `settings`
- - `shovel`
- - `shredder`
- - `shrub`
- - `skip-back`
- - `skip-forward`
- - `sliders-horizontal`
- - `sliders-vertical`
- - `spade`
- - `sparkle`
- - `sparkles`
- - `sprout`
- - `square-bottom-dashed-scissors`
- - `square-m`
- - `square-play`
- - `square-scissors`
- - `step-back`
- - `step-forward`
- - `sticker`
- - `sticky-note`
- - `store`
- - `sun-moon`
- - `sword`
- - `table-of-contents`
- - `tags`
- - `text-quote`
- - `text-search`
- - `thermometer-sun`
- - `thumbs-down`
- - `thumbs-up`
- - `tickets-plane`
- - `tickets`
- - `trash-2`
- - `trash`
- - `tv-minimal-play`
- - `umbrella-off`
- - `umbrella`
- - `wallpaper`
- - `watch`
- - `wrench`
+
+- `a-arrow-down`
+- `a-arrow-up`
+- `a-large-small`
+- `ampersand`
+- `anchor`
+- `apple`
+- `arrow-big-down-dash`
+- `arrow-big-down`
+- `arrow-big-left-dash`
+- `arrow-big-left`
+- `arrow-big-right-dash`
+- `arrow-big-right`
+- `arrow-big-up-dash`
+- `arrow-big-up`
+- `ban`
+- `book-copy`
+- `book-heart`
+- `bot-message-square`
+- `brain`
+- `brush-cleaning`
+- `bubbles`
+- `bug-off`
+- `bug-play`
+- `bug`
+- `building-2`
+- `building`
+- `cable`
+- `cake-slice`
+- `calendar-clock`
+- `calendar-cog`
+- `calendar-fold`
+- `calendar-heart`
+- `camera-off`
+- `camera`
+- `case-lower`
+- `case-sensitive`
+- `case-upper`
+- `castle`
+- `chart-no-axes-column-decreasing`
+- `chart-no-axes-column-increasing`
+- `chart-no-axes-column`
+- `chart-no-axes-gantt`
+- `church`
+- `circle-parking-off`
+- `circle-play`
+- `clock-1`
+- `clock-10`
+- `clock-11`
+- `clock-12`
+- `clock-2`
+- `clock-3`
+- `clock-4`
+- `clock-5`
+- `clock-6`
+- `clock-7`
+- `clock-8`
+- `clock-9`
+- `clock-alert`
+- `clock-arrow-down`
+- `clock-arrow-up`
+- `clock`
+- `cloud-moon-rain`
+- `cloud-moon`
+- `cog`
+- `combine`
+- `croissant`
+- `dessert`
+- `fast-forward`
+- `file-archive`
+- `file-axis-3d`
+- `file-badge`
+- `file-box`
+- `file-chart-column-increasing`
+- `file-chart-column`
+- `file-chart-line`
+- `file-chart-pie`
+- `file-check`
+- `file-clock`
+- `file-code`
+- `file-cog`
+- `file-diff`
+- `file-digit`
+- `file-down`
+- `file-heart`
+- `file-image`
+- `file-input`
+- `file-key`
+- `file-lock`
+- `file-minus`
+- `file-music`
+- `file-output`
+- `file-pen-line`
+- `file-pen`
+- `file-plus`
+- `file-question-mark`
+- `file-scan`
+- `file-search`
+- `file-sliders`
+- `file-spreadsheet`
+- `file-stack`
+- `file-symlink`
+- `file-terminal`
+- `file-text`
+- `file-type`
+- `file-up`
+- `file-user`
+- `file-volume`
+- `file-x`
+- `file`
+- `files`
+- `flag-off`
+- `flag-triangle-left`
+- `flag-triangle-right`
+- `flag`
+- `flame`
+- `flashlight-off`
+- `flashlight`
+- `folder-clock`
+- `folder-git-2`
+- `folder-heart`
+- `folder-symlink`
+- `folders`
+- `fuel`
+- `gavel`
+- `gem`
+- `hammer`
+- `hand-heart`
+- `heart-crack`
+- `heart-handshake`
+- `heart-minus`
+- `heart-off`
+- `heart-plus`
+- `heart-pulse`
+- `heart`
+- `hospital`
+- `house-plug`
+- `house-plus`
+- `house-wifi`
+- `house`
+- `image-play`
+- `images`
+- `kanban`
+- `lasso`
+- `ligature`
+- `list-check`
+- `list-checks`
+- `list-collapse`
+- `list-end`
+- `list-filter-plus`
+- `list-filter`
+- `list-minus`
+- `list-music`
+- `list-ordered`
+- `list-plus`
+- `list-restart`
+- `list-start`
+- `list-todo`
+- `list-tree`
+- `list-video`
+- `list-x`
+- `list`
+- `logs`
+- `magnet`
+- `mails`
+- `megaphone-off`
+- `megaphone`
+- `memory-stick`
+- `menu`
+- `message-circle-code`
+- `message-circle-dashed`
+- `message-circle-heart`
+- `message-circle-more`
+- `message-circle-off`
+- `message-circle-plus`
+- `message-circle-question-mark`
+- `message-circle-reply`
+- `message-circle-warning`
+- `message-circle-x`
+- `message-circle`
+- `message-square-code`
+- `message-square-dashed`
+- `message-square-diff`
+- `message-square-dot`
+- `message-square-heart`
+- `message-square-lock`
+- `message-square-more`
+- `message-square-off`
+- `message-square-plus`
+- `message-square-quote`
+- `message-square-reply`
+- `message-square-share`
+- `message-square-text`
+- `message-square-warning`
+- `message-square-x`
+- `message-square`
+- `messages-square`
+- `mic-off`
+- `microchip`
+- `monitor-dot`
+- `monitor-play`
+- `moon-star`
+- `moon`
+- `paint-bucket`
+- `pause`
+- `pen-line`
+- `pencil-line`
+- `pickaxe`
+- `play`
+- `plug`
+- `podcast`
+- `receipt-text`
+- `refresh-ccw-dot`
+- `replace-all`
+- `replace`
+- `rewind`
+- `ruler-dimension-line`
+- `sailboat`
+- `scale`
+- `scan-heart`
+- `school`
+- `settings`
+- `shovel`
+- `shredder`
+- `shrub`
+- `skip-back`
+- `skip-forward`
+- `sliders-horizontal`
+- `sliders-vertical`
+- `spade`
+- `sparkle`
+- `sparkles`
+- `sprout`
+- `square-bottom-dashed-scissors`
+- `square-m`
+- `square-play`
+- `square-scissors`
+- `step-back`
+- `step-forward`
+- `sticker`
+- `sticky-note`
+- `store`
+- `sun-moon`
+- `sword`
+- `table-of-contents`
+- `tags`
+- `text-quote`
+- `text-search`
+- `thermometer-sun`
+- `thumbs-down`
+- `thumbs-up`
+- `tickets-plane`
+- `tickets`
+- `trash-2`
+- `trash`
+- `tv-minimal-play`
+- `umbrella-off`
+- `umbrella`
+- `wallpaper`
+- `watch`
+- `wrench`
 
 ## [0.7.1] - 2025-06-25
 
@@ -373,738 +382,749 @@ Updated dependencies:
 ## [0.7.0] - 2025-06-25
 
 ### Added
- - `badge-question-mark`
- - `banknote-arrow-down`
- - `banknote-arrow-up`
- - `banknote-x`
- - `barrel`
- - `book-alert`
- - `bottle-wine`
- - `bow-arrow`
- - `brick-wall-fire`
- - `brush-cleaning`
- - `bubbles`
- - `card-sim`
- - `check-line`
- - `circle-pound-sterling`
- - `circle-question-mark`
- - `circle-small`
- - `clock-fading`
- - `clock-plus`
- - `cloud-check`
- - `columns-3-cog`
- - `decimals-arrow-left`
- - `decimals-arrow-right`
- - `door-closed-locked`
- - `drone`
- - `file-question-mark`
- - `funnel-plus`
- - `funnel-x`
- - `funnel`
- - `georgian-lari`
- - `gpu`
- - `grid-3x2`
- - `hamburger`
- - `heart-minus`
- - `heart-plus`
- - `id-card-lanyard`
- - `line-squiggle`
- - `location-edit`
- - `mail-question-mark`
- - `mars-stroke`
- - `mars`
- - `message-circle-question-mark`
- - `non-binary`
- - `panda`
- - `rectangle-circle`
- - `rectangle-goggles`
- - `rotate-ccw-key`
- - `ruler-dimension-line`
- - `saudi-riyal`
- - `shield-question-mark`
- - `shield-user`
- - `shredder`
- - `shrimp`
- - `soap-dispenser-droplet`
- - `spline-pointer`
- - `spool`
- - `square-dashed-top-solid`
- - `square-round-corner`
- - `squares-exclude`
- - `squares-intersect`
- - `squares-subtract`
- - `squares-unite`
- - `squircle-dashed`
- - `transgender`
- - `truck-electric`
- - `user-lock`
- - `venus-and-mars`
- - `venus`
- - `wifi-cog`
- - `wifi-pen`
+
+- `badge-question-mark`
+- `banknote-arrow-down`
+- `banknote-arrow-up`
+- `banknote-x`
+- `barrel`
+- `book-alert`
+- `bottle-wine`
+- `bow-arrow`
+- `brick-wall-fire`
+- `brush-cleaning`
+- `bubbles`
+- `card-sim`
+- `check-line`
+- `circle-pound-sterling`
+- `circle-question-mark`
+- `circle-small`
+- `clock-fading`
+- `clock-plus`
+- `cloud-check`
+- `columns-3-cog`
+- `decimals-arrow-left`
+- `decimals-arrow-right`
+- `door-closed-locked`
+- `drone`
+- `file-question-mark`
+- `funnel-plus`
+- `funnel-x`
+- `funnel`
+- `georgian-lari`
+- `gpu`
+- `grid-3x2`
+- `hamburger`
+- `heart-minus`
+- `heart-plus`
+- `id-card-lanyard`
+- `line-squiggle`
+- `location-edit`
+- `mail-question-mark`
+- `mars-stroke`
+- `mars`
+- `message-circle-question-mark`
+- `non-binary`
+- `panda`
+- `rectangle-circle`
+- `rectangle-goggles`
+- `rotate-ccw-key`
+- `ruler-dimension-line`
+- `saudi-riyal`
+- `shield-question-mark`
+- `shield-user`
+- `shredder`
+- `shrimp`
+- `soap-dispenser-droplet`
+- `spline-pointer`
+- `spool`
+- `square-dashed-top-solid`
+- `square-round-corner`
+- `squares-exclude`
+- `squares-intersect`
+- `squares-subtract`
+- `squares-unite`
+- `squircle-dashed`
+- `transgender`
+- `truck-electric`
+- `user-lock`
+- `venus-and-mars`
+- `venus`
+- `wifi-cog`
+- `wifi-pen`
 
 ### Updated
- - `air-vent`
- - `axe`
- - `axis-3d`
- - `baby`
- - `battery-charging`
- - `battery-full`
- - `battery-low`
- - `battery-medium`
- - `battery-plus`
- - `battery-warning`
- - `battery`
- - `beef`
- - `bell-electric`
- - `blocks`
- - `book-key`
- - `brackets`
- - `brain-cog`
- - `brush`
- - `calendar-cog`
- - `calendar-plus`
- - `candy-off`
- - `candy`
- - `chevrons-left-right-ellipsis`
- - `circle-arrow-left`
- - `circle-arrow-right`
- - `circle-slash-2`
- - `clipboard-paste`
- - `clock-6`
- - `cloud-cog`
- - `code`
- - `corner-down-left`
- - `corner-down-right`
- - `corner-left-down`
- - `corner-left-up`
- - `corner-right-down`
- - `corner-right-up`
- - `corner-up-left`
- - `corner-up-right`
- - `cpu`
- - `door-closed`
- - `door-open`
- - `download`
- - `dumbbell`
- - `egg-off`
- - `egg`
- - `eraser`
- - `expand`
- - `factory`
- - `file-badge-2`
- - `file-badge`
- - `file-cog`
- - `folder-cog`
- - `forward`
- - `guitar`
- - `house-plus`
- - `infinity`
- - `iteration-ccw`
- - `iteration-cw`
- - `lamp-ceiling`
- - `lamp-desk`
- - `lamp-floor`
- - `lamp-wall-down`
- - `lamp-wall-up`
- - `lamp`
- - `landmark`
- - `laptop`
- - `layers-2`
- - `letter-text`
- - `list-collapse`
- - `locate-off`
- - `log-in`
- - `log-out`
- - `mail`
- - `maximize-2`
- - `menu`
- - `mic`
- - `minimize-2`
- - `monitor-cog`
- - `newspaper`
- - `orbit`
- - `package-2`
- - `package`
- - `palette`
- - `paperclip`
- - `phone-call`
- - `phone-forwarded`
- - `phone-incoming`
- - `phone-missed`
- - `phone-off`
- - `phone-outgoing`
- - `phone`
- - `piggy-bank`
- - `pipette`
- - `pocket`
- - `radiation`
- - `radio`
- - `reply-all`
- - `reply`
- - `satellite`
- - `search`
- - `separator-horizontal`
- - `separator-vertical`
- - `server-cog`
- - `settings-2`
- - `share`
- - `shopping-bag`
- - `square-check-big`
- - `square-code`
- - `stamp`
- - `terminal`
- - `text-cursor-input`
- - `text-select`
- - `text`
- - `toggle-left`
- - `toggle-right`
- - `touchpad-off`
- - `traffic-cone`
- - `trending-down`
- - `trending-up`
- - `trophy`
- - `tv`
- - `type`
- - `university`
- - `upload`
- - `user-check`
- - `user-cog`
- - `user-round-cog`
- - `users`
- - `warehouse`
- - `wrap-text`
+
+- `air-vent`
+- `axe`
+- `axis-3d`
+- `baby`
+- `battery-charging`
+- `battery-full`
+- `battery-low`
+- `battery-medium`
+- `battery-plus`
+- `battery-warning`
+- `battery`
+- `beef`
+- `bell-electric`
+- `blocks`
+- `book-key`
+- `brackets`
+- `brain-cog`
+- `brush`
+- `calendar-cog`
+- `calendar-plus`
+- `candy-off`
+- `candy`
+- `chevrons-left-right-ellipsis`
+- `circle-arrow-left`
+- `circle-arrow-right`
+- `circle-slash-2`
+- `clipboard-paste`
+- `clock-6`
+- `cloud-cog`
+- `code`
+- `corner-down-left`
+- `corner-down-right`
+- `corner-left-down`
+- `corner-left-up`
+- `corner-right-down`
+- `corner-right-up`
+- `corner-up-left`
+- `corner-up-right`
+- `cpu`
+- `door-closed`
+- `door-open`
+- `download`
+- `dumbbell`
+- `egg-off`
+- `egg`
+- `eraser`
+- `expand`
+- `factory`
+- `file-badge-2`
+- `file-badge`
+- `file-cog`
+- `folder-cog`
+- `forward`
+- `guitar`
+- `house-plus`
+- `infinity`
+- `iteration-ccw`
+- `iteration-cw`
+- `lamp-ceiling`
+- `lamp-desk`
+- `lamp-floor`
+- `lamp-wall-down`
+- `lamp-wall-up`
+- `lamp`
+- `landmark`
+- `laptop`
+- `layers-2`
+- `letter-text`
+- `list-collapse`
+- `locate-off`
+- `log-in`
+- `log-out`
+- `mail`
+- `maximize-2`
+- `menu`
+- `mic`
+- `minimize-2`
+- `monitor-cog`
+- `newspaper`
+- `orbit`
+- `package-2`
+- `package`
+- `palette`
+- `paperclip`
+- `phone-call`
+- `phone-forwarded`
+- `phone-incoming`
+- `phone-missed`
+- `phone-off`
+- `phone-outgoing`
+- `phone`
+- `piggy-bank`
+- `pipette`
+- `pocket`
+- `radiation`
+- `radio`
+- `reply-all`
+- `reply`
+- `satellite`
+- `search`
+- `separator-horizontal`
+- `separator-vertical`
+- `server-cog`
+- `settings-2`
+- `share`
+- `shopping-bag`
+- `square-check-big`
+- `square-code`
+- `stamp`
+- `terminal`
+- `text-cursor-input`
+- `text-select`
+- `text`
+- `toggle-left`
+- `toggle-right`
+- `touchpad-off`
+- `traffic-cone`
+- `trending-down`
+- `trending-up`
+- `trophy`
+- `tv`
+- `type`
+- `university`
+- `upload`
+- `user-check`
+- `user-cog`
+- `user-round-cog`
+- `users`
+- `warehouse`
+- `wrap-text`
 
 ## [0.6.0] - 2025-01-17
 
 ### Added
- - `amphora`
- - `bandage`
- - `battery-plus`
- - `binoculars`
- - `briefcase-conveyor-belt`
- - `calendar-1`
- - `calendar-sync`
- - `chart-gantt`
- - `chevrons-left-right-ellipsis`
- - `circle-fading-arrow-up`
- - `clock-alert`
- - `cloud-alert`
- - `droplet-off`
- - `equal-approximately`
- - `ethernet-port`
- - `eye-closed`
- - `file-user`
- - `grid-2x2-plus`
- - `headphone-off`
- - `house-wifi`
- - `id-card`
- - `image-upscale`
- - `laptop-minimal-check`
- - `list-filter-plus`
- - `map-pin-house`
- - `map-plus`
- - `message-square-lock`
- - `microchip`
- - `octagon-minus`
- - `omega`
- - `scan-heart`
- - `square-dashed`
- - `table-of-contents`
- - `tickets-plane`
- - `tickets`
- - `toilet`
- - `trending-up-down`
- - `triangle-dashed`
- - `volleyball`
- - `volume-off`
- - `waves-ladder`
- - `wind-arrow-down`
+
+- `amphora`
+- `bandage`
+- `battery-plus`
+- `binoculars`
+- `briefcase-conveyor-belt`
+- `calendar-1`
+- `calendar-sync`
+- `chart-gantt`
+- `chevrons-left-right-ellipsis`
+- `circle-fading-arrow-up`
+- `clock-alert`
+- `cloud-alert`
+- `droplet-off`
+- `equal-approximately`
+- `ethernet-port`
+- `eye-closed`
+- `file-user`
+- `grid-2x2-plus`
+- `headphone-off`
+- `house-wifi`
+- `id-card`
+- `image-upscale`
+- `laptop-minimal-check`
+- `list-filter-plus`
+- `map-pin-house`
+- `map-plus`
+- `message-square-lock`
+- `microchip`
+- `octagon-minus`
+- `omega`
+- `scan-heart`
+- `square-dashed`
+- `table-of-contents`
+- `tickets-plane`
+- `tickets`
+- `toilet`
+- `trending-up-down`
+- `triangle-dashed`
+- `volleyball`
+- `volume-off`
+- `waves-ladder`
+- `wind-arrow-down`
 
 ### Updated
- - `align-center`
- - `align-justify`
- - `align-left`
- - `align-right`
- - `backpack`
- - `bath`
- - `battery-warning`
- - `bell-dot`
- - `bell-minus`
- - `bell-off`
- - `bell-plus`
- - `bell-ring`
- - `bell`
- - `book-dashed`
- - `book-open-check`
- - `book-open-text`
- - `book-open`
- - `calendar-search`
- - `caravan`
- - `cigarette-off`
- - `cigarette`
- - `circle-check-big`
- - `circle-stop`
- - `cloud-download`
- - `cloud-upload`
- - `combine`
- - `component`
- - `contact-round`
- - `contact`
- - `cross`
- - `drill`
- - `file-music`
- - `file-volume`
- - `flask-conical-off`
- - `flask-conical`
- - `flask-round`
- - `folder-search`
- - `glass-water`
- - `grid-2x2`
- - `hand-platter`
- - `hard-hat`
- - `heading-4`
- - `indent-decrease`
- - `indent-increase`
- - `layers`
- - `list-ordered`
- - `list`
- - `loader-pinwheel`
- - `message-square-dashed`
- - `messages-square`
- - `milestone`
- - `mouse-pointer-2`
- - `mouse-pointer-ban`
- - `mouse-pointer-click`
- - `mouse-pointer`
- - `move-diagonal-2`
- - `move-diagonal`
- - `move-horizontal`
- - `move-vertical`
- - `move`
- - `octagon-pause`
- - `package`
- - `paperclip`
- - `parking-meter`
- - `pentagon`
- - `picture-in-picture`
- - `pizza`
- - `puzzle`
- - `rat`
- - `replace-all`
- - `replace`
- - `sandwich`
- - `scale-3d`
- - `school`
- - `send-horizontal`
- - `send`
- - `ship`
- - `shuffle`
- - `signpost`
- - `skull`
- - `slice`
- - `snowflake`
- - `square-check-big`
- - `square-dashed-mouse-pointer`
- - `square-mouse-pointer`
- - `star-half`
- - `star`
- - `stethoscope`
- - `sun-snow`
- - `thermometer-snowflake`
- - `undo-dot`
- - `vegan`
- - `venetian-mask`
- - `volume-1`
- - `volume-2`
- - `volume-x`
- - `volume`
- - `wind`
+
+- `align-center`
+- `align-justify`
+- `align-left`
+- `align-right`
+- `backpack`
+- `bath`
+- `battery-warning`
+- `bell-dot`
+- `bell-minus`
+- `bell-off`
+- `bell-plus`
+- `bell-ring`
+- `bell`
+- `book-dashed`
+- `book-open-check`
+- `book-open-text`
+- `book-open`
+- `calendar-search`
+- `caravan`
+- `cigarette-off`
+- `cigarette`
+- `circle-check-big`
+- `circle-stop`
+- `cloud-download`
+- `cloud-upload`
+- `combine`
+- `component`
+- `contact-round`
+- `contact`
+- `cross`
+- `drill`
+- `file-music`
+- `file-volume`
+- `flask-conical-off`
+- `flask-conical`
+- `flask-round`
+- `folder-search`
+- `glass-water`
+- `grid-2x2`
+- `hand-platter`
+- `hard-hat`
+- `heading-4`
+- `indent-decrease`
+- `indent-increase`
+- `layers`
+- `list-ordered`
+- `list`
+- `loader-pinwheel`
+- `message-square-dashed`
+- `messages-square`
+- `milestone`
+- `mouse-pointer-2`
+- `mouse-pointer-ban`
+- `mouse-pointer-click`
+- `mouse-pointer`
+- `move-diagonal-2`
+- `move-diagonal`
+- `move-horizontal`
+- `move-vertical`
+- `move`
+- `octagon-pause`
+- `package`
+- `paperclip`
+- `parking-meter`
+- `pentagon`
+- `picture-in-picture`
+- `pizza`
+- `puzzle`
+- `rat`
+- `replace-all`
+- `replace`
+- `sandwich`
+- `scale-3d`
+- `school`
+- `send-horizontal`
+- `send`
+- `ship`
+- `shuffle`
+- `signpost`
+- `skull`
+- `slice`
+- `snowflake`
+- `square-check-big`
+- `square-dashed-mouse-pointer`
+- `square-mouse-pointer`
+- `star-half`
+- `star`
+- `stethoscope`
+- `sun-snow`
+- `thermometer-snowflake`
+- `undo-dot`
+- `vegan`
+- `venetian-mask`
+- `volume-1`
+- `volume-2`
+- `volume-x`
+- `volume`
+- `wind`
 
 ## [0.5.1] - 2024-07-29
+
 - Missed a lockfile update. This release has the same contents as 0.5.0
 
 ## [0.5.0] - 2024-07-29
 
 ### Added
- - `biceps-flexed`
- - `bot-off`
- - `calendar-arrow-down`
- - `calendar-arrow-up`
- - `calendar-cog`
- - `chart-area`
- - `chart-bar-big`
- - `chart-bar-decreasing`
- - `chart-bar-increasing`
- - `chart-bar-stacked`
- - `chart-bar`
- - `chart-candlestick`
- - `chart-column-big`
- - `chart-column-decreasing`
- - `chart-column-increasing`
- - `chart-column-stacked`
- - `chart-column`
- - `chart-line`
- - `chart-network`
- - `chart-no-axes-column-decreasing`
- - `chart-no-axes-column-increasing`
- - `chart-no-axes-column`
- - `chart-no-axes-combined`
- - `chart-no-axes-gantt`
- - `chart-pie`
- - `chart-scatter`
- - `chart-spline`
- - `clock-arrow-down`
- - `clock-arrow-up`
- - `dam`
- - `diamond-minus`
- - `diamond-plus`
- - `file-chart-column-increasing`
- - `file-chart-column`
- - `file-chart-line`
- - `file-chart-pie`
- - `folder-code`
- - `grid-2x2-check`
- - `grid-2x2-x`
- - `house-plug`
- - `house-plus`
- - `house`
- - `image-play`
- - `keyboard-off`
- - `lectern`
- - `letter-text`
- - `list-check`
- - `loader-pinwheel`
- - `logs`
- - `map-pin-check-inside`
- - `map-pin-check`
- - `map-pin-minus-inside`
- - `map-pin-minus`
- - `map-pin-plus-inside`
- - `map-pin-plus`
- - `map-pin-x-inside`
- - `map-pin-x`
- - `monitor-cog`
- - `mouse-off`
- - `mouse-pointer-ban`
- - `origami`
- - `paintbrush-vertical`
- - `pen-off`
- - `pencil-off`
- - `philippine-peso`
- - `pilcrow-left`
- - `pilcrow-right`
- - `pill-bottle`
- - `printer-check`
- - `save-off`
- - `scan-qr-code`
- - `section`
- - `signature`
- - `square-chart-gantt`
- - `square-square`
- - `tv-minimal-play`
- - `tv-minimal`
- - `type-outline`
- - `user-pen`
- - `user-round-pen`
- - `wifi-high`
- - `wifi-low`
- - `wifi-zero`
- - `worm`
+
+- `biceps-flexed`
+- `bot-off`
+- `calendar-arrow-down`
+- `calendar-arrow-up`
+- `calendar-cog`
+- `chart-area`
+- `chart-bar-big`
+- `chart-bar-decreasing`
+- `chart-bar-increasing`
+- `chart-bar-stacked`
+- `chart-bar`
+- `chart-candlestick`
+- `chart-column-big`
+- `chart-column-decreasing`
+- `chart-column-increasing`
+- `chart-column-stacked`
+- `chart-column`
+- `chart-line`
+- `chart-network`
+- `chart-no-axes-column-decreasing`
+- `chart-no-axes-column-increasing`
+- `chart-no-axes-column`
+- `chart-no-axes-combined`
+- `chart-no-axes-gantt`
+- `chart-pie`
+- `chart-scatter`
+- `chart-spline`
+- `clock-arrow-down`
+- `clock-arrow-up`
+- `dam`
+- `diamond-minus`
+- `diamond-plus`
+- `file-chart-column-increasing`
+- `file-chart-column`
+- `file-chart-line`
+- `file-chart-pie`
+- `folder-code`
+- `grid-2x2-check`
+- `grid-2x2-x`
+- `house-plug`
+- `house-plus`
+- `house`
+- `image-play`
+- `keyboard-off`
+- `lectern`
+- `letter-text`
+- `list-check`
+- `loader-pinwheel`
+- `logs`
+- `map-pin-check-inside`
+- `map-pin-check`
+- `map-pin-minus-inside`
+- `map-pin-minus`
+- `map-pin-plus-inside`
+- `map-pin-plus`
+- `map-pin-x-inside`
+- `map-pin-x`
+- `monitor-cog`
+- `mouse-off`
+- `mouse-pointer-ban`
+- `origami`
+- `paintbrush-vertical`
+- `pen-off`
+- `pencil-off`
+- `philippine-peso`
+- `pilcrow-left`
+- `pilcrow-right`
+- `pill-bottle`
+- `printer-check`
+- `save-off`
+- `scan-qr-code`
+- `section`
+- `signature`
+- `square-chart-gantt`
+- `square-square`
+- `tv-minimal-play`
+- `tv-minimal`
+- `type-outline`
+- `user-pen`
+- `user-round-pen`
+- `wifi-high`
+- `wifi-low`
+- `wifi-zero`
+- `worm`
 
 ### Updated
- - `activity`
- - `alarm-smoke`
- - `align-vertical-distribute-center`
- - `angry`
- - `armchair`
- - `award`
- - `bold`
- - `book-a`
- - `book-audio`
- - `book-check`
- - `book-copy`
- - `book-dashed`
- - `book-down`
- - `book-headphones`
- - `book-heart`
- - `book-image`
- - `book-key`
- - `book-lock`
- - `book-marked`
- - `book-minus`
- - `book-plus`
- - `book-text`
- - `book-type`
- - `book-up-2`
- - `book-up`
- - `book-user`
- - `book-x`
- - `book`
- - `bug-play`
- - `cable`
- - `cake`
- - `calendar-minus`
- - `castle`
- - `cctv`
- - `chef-hat`
- - `church`
- - `circle-power`
- - `circle-slash`
- - `clipboard-pen-line`
- - `clipboard-pen`
- - `cloud-moon-rain`
- - `cloud-moon`
- - `coffee`
- - `compass`
- - `cpu`
- - `delete`
- - `dna-off`
- - `dna`
- - `dog`
- - `drafting-compass`
- - `drumstick`
- - `dumbbell`
- - `earth`
- - `eye-off`
- - `eye`
- - `feather`
- - `file-archive`
- - `file-code`
- - `file-cog`
- - `file-pen-line`
- - `file-pen`
- - `file-question`
- - `fingerprint`
- - `folder-heart`
- - `folder-pen`
- - `fuel`
- - `grab`
- - `guitar`
- - `hand-metal`
- - `hand`
- - `hard-hat`
- - `heart-handshake`
- - `image-plus`
- - `key-round`
- - `key-square`
- - `key`
- - `lasso-select`
- - `loader`
- - `luggage`
- - `mail-search`
- - `mailbox`
- - `map-pin-off`
- - `map-pin`
- - `map-pinned`
- - `map`
- - `message-circle-code`
- - `message-square-code`
- - `mic-vocal`
- - `monitor-play`
- - `monitor-stop`
- - `moon-star`
- - `notebook-pen`
- - `octagon-alert`
- - `octagon-pause`
- - `octagon-x`
- - `octagon`
- - `paintbrush`
- - `party-popper`
- - `pause`
- - `pen-line`
- - `pen-tool`
- - `pen`
- - `pencil-line`
- - `pencil-ruler`
- - `pencil`
- - `piggy-bank`
- - `pin-off`
- - `pin`
- - `plug-2`
- - `pointer`
- - `printer`
- - `quote`
- - `radiation`
- - `radical`
- - `radio-receiver`
- - `rat`
- - `redo-2`
- - `ribbon`
- - `save-all`
- - `save`
- - `scan-eye`
- - `scroll-text`
- - `scroll`
- - `search-code`
- - `shrub`
- - `sigma`
- - `signpost`
- - `sofa`
- - `sparkle`
- - `sparkles`
- - `square-code`
- - `square-dashed-bottom-code`
- - `square-pen`
- - `square-power`
- - `stethoscope`
- - `sticker`
- - `store`
- - `swatch-book`
- - `test-tube-diagonal`
- - `test-tube`
- - `test-tubes`
- - `thumbs-down`
- - `thumbs-up`
- - `tractor`
- - `tram-front`
- - `trees`
- - `undo-2`
- - `university`
- - `utensils`
- - `video-off`
- - `video`
- - `view`
- - `wallet`
- - `wand`
+
+- `activity`
+- `alarm-smoke`
+- `align-vertical-distribute-center`
+- `angry`
+- `armchair`
+- `award`
+- `bold`
+- `book-a`
+- `book-audio`
+- `book-check`
+- `book-copy`
+- `book-dashed`
+- `book-down`
+- `book-headphones`
+- `book-heart`
+- `book-image`
+- `book-key`
+- `book-lock`
+- `book-marked`
+- `book-minus`
+- `book-plus`
+- `book-text`
+- `book-type`
+- `book-up-2`
+- `book-up`
+- `book-user`
+- `book-x`
+- `book`
+- `bug-play`
+- `cable`
+- `cake`
+- `calendar-minus`
+- `castle`
+- `cctv`
+- `chef-hat`
+- `church`
+- `circle-power`
+- `circle-slash`
+- `clipboard-pen-line`
+- `clipboard-pen`
+- `cloud-moon-rain`
+- `cloud-moon`
+- `coffee`
+- `compass`
+- `cpu`
+- `delete`
+- `dna-off`
+- `dna`
+- `dog`
+- `drafting-compass`
+- `drumstick`
+- `dumbbell`
+- `earth`
+- `eye-off`
+- `eye`
+- `feather`
+- `file-archive`
+- `file-code`
+- `file-cog`
+- `file-pen-line`
+- `file-pen`
+- `file-question`
+- `fingerprint`
+- `folder-heart`
+- `folder-pen`
+- `fuel`
+- `grab`
+- `guitar`
+- `hand-metal`
+- `hand`
+- `hard-hat`
+- `heart-handshake`
+- `image-plus`
+- `key-round`
+- `key-square`
+- `key`
+- `lasso-select`
+- `loader`
+- `luggage`
+- `mail-search`
+- `mailbox`
+- `map-pin-off`
+- `map-pin`
+- `map-pinned`
+- `map`
+- `message-circle-code`
+- `message-square-code`
+- `mic-vocal`
+- `monitor-play`
+- `monitor-stop`
+- `moon-star`
+- `notebook-pen`
+- `octagon-alert`
+- `octagon-pause`
+- `octagon-x`
+- `octagon`
+- `paintbrush`
+- `party-popper`
+- `pause`
+- `pen-line`
+- `pen-tool`
+- `pen`
+- `pencil-line`
+- `pencil-ruler`
+- `pencil`
+- `piggy-bank`
+- `pin-off`
+- `pin`
+- `plug-2`
+- `pointer`
+- `printer`
+- `quote`
+- `radiation`
+- `radical`
+- `radio-receiver`
+- `rat`
+- `redo-2`
+- `ribbon`
+- `save-all`
+- `save`
+- `scan-eye`
+- `scroll-text`
+- `scroll`
+- `search-code`
+- `shrub`
+- `sigma`
+- `signpost`
+- `sofa`
+- `sparkle`
+- `sparkles`
+- `square-code`
+- `square-dashed-bottom-code`
+- `square-pen`
+- `square-power`
+- `stethoscope`
+- `sticker`
+- `store`
+- `swatch-book`
+- `test-tube-diagonal`
+- `test-tube`
+- `test-tubes`
+- `thumbs-down`
+- `thumbs-up`
+- `tractor`
+- `tram-front`
+- `trees`
+- `undo-2`
+- `university`
+- `utensils`
+- `video-off`
+- `video`
+- `view`
+- `wallet`
+- `wand`
 
 ## [0.4.0] - 2024-03-13
 
 ### Added
- - `beer-off`
- - `hospital`
- - `app-window-mac`
- - `bot-message-square`
- - `briefcase-business`
- - `briefcase-medical`
- - `cannabis`
- - `circle-alert`
- - `circle-arrow-down`
- - `circle-arrow-left`
- - `circle-arrow-out-down-left`
- - `circle-arrow-out-down-right`
- - `circle-arrow-out-up-left`
- - `circle-arrow-out-up-right`
- - `circle-arrow-right`
- - `circle-arrow-up`
- - `circle-check-big`
- - `circle-check`
- - `circle-chevron-down`
- - `circle-chevron-left`
- - `circle-chevron-right`
- - `circle-chevron-up`
- - `circle-divide`
- - `circle-gauge`
- - `circle-help`
- - `circle-minus`
- - `circle-parking-off`
- - `circle-parking`
- - `circle-pause`
- - `circle-percent`
- - `circle-play`
- - `circle-plus`
- - `circle-power`
- - `circle-stop`
- - `circle-x`
- - `cloud-download`
- - `cloud-upload`
- - `code-xml`
- - `contact-round`
- - `diamond-percent`
- - `dock`
- - `earth-lock`
- - `earth`
- - `ellipsis-vertical`
- - `ellipsis`
- - `globe-lock`
- - `ham`
- - `ice-cream-bowl`
- - `ice-cream-cone`
- - `image-up`
- - `indent-decrease`
- - `indent-increase`
- - `laptop-minimal`
- - `loader-circle`
- - `lock-keyhole-open`
- - `lock-open`
- - `mic-vocal`
- - `octagon-alert`
- - `octagon-pause`
- - `octagon-x`
- - `pickaxe`
- - `proportions`
- - `rectangle-ellipsis`
- - `rotate-ccw-square`
- - `rotate-cw-square`
- - `sliders-vertical`
- - `square-activity`
- - `square-arrow-down-left`
- - `square-arrow-down-right`
- - `square-arrow-down`
- - `square-arrow-left`
- - `square-arrow-out-down-left`
- - `square-arrow-out-down-right`
- - `square-arrow-out-up-left`
- - `square-arrow-out-up-right`
- - `square-arrow-right`
- - `square-arrow-up-left`
- - `square-arrow-up-right`
- - `square-arrow-up`
- - `square-asterisk`
- - `square-bottom-dashed-scissors`
- - `square-check-big`
- - `square-check`
- - `square-chevron-down`
- - `square-chevron-left`
- - `square-chevron-right`
- - `square-chevron-up`
- - `square-code`
- - `square-dashed-kanban`
- - `square-dashed-mouse-pointer`
- - `square-divide`
- - `square-dot`
- - `square-equal`
- - `square-function`
- - `square-gantt-chart`
- - `square-kanban`
- - `square-library`
- - `square-m`
- - `square-menu`
- - `square-minus`
- - `square-mouse-pointer`
- - `square-parking-off`
- - `square-parking`
- - `square-percent`
- - `square-pi`
- - `square-pilcrow`
- - `square-play`
- - `square-plus`
- - `square-power`
- - `square-scissors`
- - `square-sigma`
- - `square-slash`
- - `square-split-horizontal`
- - `square-split-vertical`
- - `square-terminal`
- - `square-x`
- - `table-cells-merge`
- - `table-cells-split`
- - `table-columns-split`
- - `table-rows-split`
- - `test-tube-diagonal`
- - `tree-palm`
- - `triangle-alert`
- - `university`
- - `wallet-minimal`
- - `wand-sparkles`
+
+- `beer-off`
+- `hospital`
+- `app-window-mac`
+- `bot-message-square`
+- `briefcase-business`
+- `briefcase-medical`
+- `cannabis`
+- `circle-alert`
+- `circle-arrow-down`
+- `circle-arrow-left`
+- `circle-arrow-out-down-left`
+- `circle-arrow-out-down-right`
+- `circle-arrow-out-up-left`
+- `circle-arrow-out-up-right`
+- `circle-arrow-right`
+- `circle-arrow-up`
+- `circle-check-big`
+- `circle-check`
+- `circle-chevron-down`
+- `circle-chevron-left`
+- `circle-chevron-right`
+- `circle-chevron-up`
+- `circle-divide`
+- `circle-gauge`
+- `circle-help`
+- `circle-minus`
+- `circle-parking-off`
+- `circle-parking`
+- `circle-pause`
+- `circle-percent`
+- `circle-play`
+- `circle-plus`
+- `circle-power`
+- `circle-stop`
+- `circle-x`
+- `cloud-download`
+- `cloud-upload`
+- `code-xml`
+- `contact-round`
+- `diamond-percent`
+- `dock`
+- `earth-lock`
+- `earth`
+- `ellipsis-vertical`
+- `ellipsis`
+- `globe-lock`
+- `ham`
+- `ice-cream-bowl`
+- `ice-cream-cone`
+- `image-up`
+- `indent-decrease`
+- `indent-increase`
+- `laptop-minimal`
+- `loader-circle`
+- `lock-keyhole-open`
+- `lock-open`
+- `mic-vocal`
+- `octagon-alert`
+- `octagon-pause`
+- `octagon-x`
+- `pickaxe`
+- `proportions`
+- `rectangle-ellipsis`
+- `rotate-ccw-square`
+- `rotate-cw-square`
+- `sliders-vertical`
+- `square-activity`
+- `square-arrow-down-left`
+- `square-arrow-down-right`
+- `square-arrow-down`
+- `square-arrow-left`
+- `square-arrow-out-down-left`
+- `square-arrow-out-down-right`
+- `square-arrow-out-up-left`
+- `square-arrow-out-up-right`
+- `square-arrow-right`
+- `square-arrow-up-left`
+- `square-arrow-up-right`
+- `square-arrow-up`
+- `square-asterisk`
+- `square-bottom-dashed-scissors`
+- `square-check-big`
+- `square-check`
+- `square-chevron-down`
+- `square-chevron-left`
+- `square-chevron-right`
+- `square-chevron-up`
+- `square-code`
+- `square-dashed-kanban`
+- `square-dashed-mouse-pointer`
+- `square-divide`
+- `square-dot`
+- `square-equal`
+- `square-function`
+- `square-gantt-chart`
+- `square-kanban`
+- `square-library`
+- `square-m`
+- `square-menu`
+- `square-minus`
+- `square-mouse-pointer`
+- `square-parking-off`
+- `square-parking`
+- `square-percent`
+- `square-pi`
+- `square-pilcrow`
+- `square-play`
+- `square-plus`
+- `square-power`
+- `square-scissors`
+- `square-sigma`
+- `square-slash`
+- `square-split-horizontal`
+- `square-split-vertical`
+- `square-terminal`
+- `square-x`
+- `table-cells-merge`
+- `table-cells-split`
+- `table-columns-split`
+- `table-rows-split`
+- `test-tube-diagonal`
+- `tree-palm`
+- `triangle-alert`
+- `university`
+- `wallet-minimal`
+- `wand-sparkles`
 
 ### Updated
- - `crown`
+
+- `crown`
 
 ### Other Changes
- - chore: Bump to 0.354.0 ([#15](https://github.com/heyvito/lucide-rails/pull/15) by @ricsdeol
+
+- chore: Bump to 0.354.0 ([#15](https://github.com/heyvito/lucide-rails/pull/15) by @ricsdeol
 
 ## [0.2.0] - 2022-10-12
+
 - Improved accessibility support ([#1](https://github.com/heyvito/lucide-rails/pull/1))
 - Added new icon: `ear`
 - Added new icon: `ear-off`
