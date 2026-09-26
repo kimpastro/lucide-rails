@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lucide-rails (0.7.4)
+    lucide-rails (0.7.6)
       railties (>= 4.1.0)
 
 GEM
@@ -161,6 +161,7 @@ PLATFORMS
   aarch64-linux
   arm64-darwin-23
   arm64-darwin-24
+  arm64-darwin-25
   x86_64-darwin-22
   x86_64-linux
 
